@@ -1,9 +1,80 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+img{
+    border-radius: 28px;
+    height: 350px;
+}
+
+p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: #1B1B1B;
 }
 
 .page{
     box-sizing: border-box;
-    margin: 88px 80px 137px;
+    display: inline-flex;
+    padding: 88px 80px 48px 80px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 65px;
 }
+
+#Busan img{
+    background-size: cover;
+    height: 660px;
+}
+
+#Busan :first-child  {
+    /* <p> Sua próxima viagem </p> */
+    color: #E1624F;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#Busan :last-child  {
+    /* subtítulo */
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+}
+
+#Destiny h2{
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #E1624F;
+}
+
+#Temple , #SecondTemple , #Park h1 {
+    font-size: 28px;
+}
+
+span {
+    font-weight: 700;
+}
+
+span ul li{
+    color: #0C51A7;
+    font-weight: 700;
+}
+
+#Park li{
+    color:#591B98;
+}
+
+
